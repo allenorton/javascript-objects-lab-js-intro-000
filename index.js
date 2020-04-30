@@ -1,5 +1,4 @@
-var car = {make : "nissan", model : "sentra", color : "silver"}
+var car = new Object()
 function updateObjectWithKeyAndValue(object, key, value){
-  Object.assign(object, {key : value})
-  return Object
+  return Object.assign({},object, {key : value})
 }
